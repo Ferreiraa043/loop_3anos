@@ -1,5 +1,6 @@
 h1 {color: rgba(235, 229, 229, 0.842);
 }
+body{background-color: black;}
 #texto-animado {
     font-family: 'Arial', sans-serif;
     font-size: 48px;
@@ -11,9 +12,8 @@ h1 {color: rgba(235, 229, 229, 0.842);
     left: 50%;
     transform: translate(-50%, -50%);
     animation: animacao-texto 5s infinite alternate;
-    background-color: black;
 }
-
+h2 {color: bisque;}
 @keyframes animacao-texto {
     0% {
         transform: translateX(20px);
